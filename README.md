@@ -21,7 +21,6 @@ The following table displays the specific configuration of this host platform. 4
 * rt-tests.cpio, the minimal file system
 * linux-demo, a demo to start a VM using capsule
 
-
 ## Usage
 
 1. Add the following args inyo the `GRUB_CMDLINE_LINUX` entry in `/etc/default/grub`："intel_iommu=on memmap=82M$0x3a000000 console=ttyS0". Then `update-grub` and reboot.
